@@ -149,20 +149,23 @@
             margin-top: 40px;
         }
       }
-       @media (max-width: 480px) {
+       @media (max-width: 370px) {
       
           .info {
-            margin-left: 35%;
+            margin-left: 15%;
+            
         }
         .info a {
-            width: 100%;
+            width: 50%;
         }
         .content .infotext {
-            padding-left: 100px;
-            padding-bottom: 100px;
+          display: flex;
+          flex-wrap: wrap;
+          font-size: 10px;
         }
         .header .name {
-        width: 20%;
+        width: 25%;
+        font-size: 5px;
         }
         .footercontent {
             width: 200px;
@@ -173,9 +176,9 @@
             margin-left: 60%;
         }
            .content .mepicture {
-            width: 600px;       
-            margin-right: 10%;
-            margin-top: 40px;
+            width: 400px;       
+            margin-right: 80%;
+            margin-top: 290px;
         }
       }
      
